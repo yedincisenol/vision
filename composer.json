@@ -1,0 +1,38 @@
+{
+    "name": "yedincisenol/vision",
+    "description": "Laravel wrapper for GCloud Vision PHP client",
+    "type": "library",
+    "require": {
+        "google/cloud-vision": "^0.15.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ibrahim S. Orencik",
+            "email": "o@yedincisenol.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "yedincisenol\\Vision\\LaravelServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-0" : {
+            "yedincisenol\\Vision\\" : "src"
+        },
+        "psr-4": {
+            "yedincisenol\\Vision\\" : "src"
+        }
+    },
+    "keywords": [
+        "gcloud",
+        "laravel",
+        "vision",
+        "gcloud vision",
+        "php vision"
+    ],
+    "version": "0.1.0"
+}
