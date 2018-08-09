@@ -4,8 +4,6 @@
 [![Packagist](https://img.shields.io/packagist/v/yedincisenol/vision.svg?style=for-the-badge)]()
 [![Packagist](https://img.shields.io/packagist/l/yedincisenol/vision.svg?style=for-the-badge)]()
 
-Create Firebase Dynamic Links from Php and Laravel
-
 * <a href="#php-config">Configuration</a>
 * <a href="#laravel-install"> Laravel Installation</a>
 * <a href="#usage">Usage examples</a>
