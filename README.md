@@ -50,7 +50,7 @@ VISION_CREDENTIALS_PATH=
 ```
 use Vision;
 
-image = Vision::image(file_get_contents('https://cdn.britannica.com/700x450/04/1304-004-E64E228C.jpg'), ['LABEL_DETECTION']);
+$image = Vision::image(file_get_contents('https://cdn.britannica.com/700x450/04/1304-004-E64E228C.jpg'), ['LABEL_DETECTION']);
 $results = Vision::annotate($image);
 collect(Vision::annotate($image)->labels())->each(function ($l) { echo $l->description() . PHP_EOL; });
 ```
