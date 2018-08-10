@@ -42,9 +42,11 @@ composer require "yedincisenol/vision"
 > copy theese parameters to your project .env and fill
 ```
 VISION_CREDENTIALS_PATH=
+VISION_API_KEY=
 ```
 
 > How to get credentials file? <a href="http://googlecloudplatform.github.io/google-cloud-php/#/docs/google-cloud/v0.73.0/guides/authentication">Visit here</a>
+> How to get API key? <a href="https://cloud.google.com/docs/authentication/api-keys?hl=en&visit_id=1-636694573712980097-1951387726&rd=1">Visit here</a>
 
 - Laravel Usage
 ```
