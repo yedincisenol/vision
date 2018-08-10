@@ -4,8 +4,6 @@
 [![Packagist](https://img.shields.io/packagist/v/yedincisenol/vision.svg?style=for-the-badge)]()
 [![Packagist](https://img.shields.io/packagist/l/yedincisenol/vision.svg?style=for-the-badge)]()
 
-Create Firebase Dynamic Links from Php and Laravel
-
 * <a href="#php-config">Configuration</a>
 * <a href="#laravel-install"> Laravel Installation</a>
 * <a href="#usage">Usage examples</a>
@@ -52,7 +50,7 @@ VISION_API_KEY=
 ```
 use Vision;
 
-image = Vision::image(file_get_contents('https://cdn.britannica.com/700x450/04/1304-004-E64E228C.jpg'), ['LABEL_DETECTION']);
+$image = Vision::image(file_get_contents('https://cdn.britannica.com/700x450/04/1304-004-E64E228C.jpg'), ['LABEL_DETECTION']);
 $results = Vision::annotate($image);
 collect(Vision::annotate($image)->labels())->each(function ($l) { echo $l->description() . PHP_EOL; });
 ```
